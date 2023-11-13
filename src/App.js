@@ -22,7 +22,6 @@ function App() {
       <h2>{adivce.advice}</h2>
       <img src={divderDesktop} className="divider-desktop" alt="divider" />
       <img src={divderMobile} className="divider-mobile" alt="divider" />
-
       <div className="dice" onClick={getAdvice}>
         <img src={dice} alt="dice" />
       </div>
